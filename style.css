@@ -34,19 +34,21 @@ body{
     height: 180px;
     display: flex;
     justify-content: flex-end;
-    align-items: flex-center;
+    /* align-items: flex-end; */
     /* border: 1px solid purple; */
 }
 
 .logo{
     width: 150px;
+    margin-top: 20px;
     /* border: 1px solid red; */
 }
 
 .logo-head{
     font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)) );
     /* border: 1px solid; */
-    margin-top: 45px;
+    margin-top: 85px;
+    margin-right: 40px;
     font-weight: 600;
     line-height: 1;
     color: black;
