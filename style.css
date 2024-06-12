@@ -17,11 +17,23 @@ body{
     border: 1px solid green;
 }
 
+.tour-btn{
+    background-color: #6C3A6E;
+    color: white;
+    margin-top: 50px;
+    font-size: 22px;
+    border: 1px solid;
+}
+
+.rotate-90 {
+    transform: rotate(90deg);
+}
+
 
 .logo-div{
     height: 180px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: flex-center;
     /* border: 1px solid purple; */
 }
@@ -149,7 +161,7 @@ section{
 
 .form-h2{
     color: white;
-    background-color: #14aad0;
+    background-color: #0097B2;
 }
 
 .form{
@@ -163,12 +175,17 @@ section{
 }
 .learn-more{
     color: white;
-    background-color: #14aad0;
+    background-color: #0097B2;
 }
 
 #locationSection{
     background-color: #6C3A6E;
     height: 850px;
+}
+@media (min-width: 992px) {
+    #locationSection{
+        height: 500px;
+    }    
 }
 
 .location-link{
@@ -217,10 +234,11 @@ section{
 footer-logo{
     border: 1px solid;
 }
-#topFooter{
+/* #topFooter{
+    border: 10px solid palegreen;
     background-color: #6C3A6E;
     height: 600px;
-}
+} */
 
 .footer-img-div, .footer-nav-div{
     margin-top: 30px;
@@ -268,13 +286,16 @@ footer-logo{
     font-family: var(--font2);
 }
 
-/* about */
+/* apply */
 
 .apply-line{
     background-color: #c54989;
     height: 30px;
 }
-
+#moreInfoForm{
+    border: 1px solid;
+    box-shadow:  10px 10px;
+}
 .coming-soon{
    border: 1px solid ;
    background-image: url(media/coming.png);
